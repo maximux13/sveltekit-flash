@@ -11,7 +11,7 @@ to display flash messages in your [Sveltekit](https://kit.svelte.dev/) applicati
 
 ## Demo
 
-You can find a demo [here](/demo).
+You can find a demo [here](https://sveltekit-flash.vercel.app/demo).
 
 ## Installation
 
