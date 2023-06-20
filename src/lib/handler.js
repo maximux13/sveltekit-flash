@@ -59,7 +59,7 @@ export default function createHandler(options = {}) {
 
     if (cookie) {
       event.locals.messages = JSON.parse(cookie);
-      event.cookies.delete(name);
+      event.cookies.delete(name, { path: '/', httpOnly: true });
     }
 
     return resolve(event);
